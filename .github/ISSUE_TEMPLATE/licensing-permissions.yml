@@ -1,0 +1,61 @@
+name: Licensing & Permissions
+description: Ask the author for permission to modify, redistribute, mirror or include VPI in a modpack, or for a separate or commercial licence. / Запит на дозвіл або окрему ліцензію. / Запрос разрешения или отдельной лицензии.
+title: "[Licensing] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        VPI is free, closed-source software under the **VPI Proprietary Freeware License 1.0** ([LICENSE](https://github.com/gmrkinichuk-gif/vpi-releases/blob/main/LICENSE)). Use this form for anything that needs the author's permission under Section 5 of the licence.
+
+        **No permission is needed** for links, reviews, videos, streams, tutorials and demonstrations, including monetised ones on YouTube, Twitch, TikTok and other platforms (Section 4). You do not need to open an issue for those.
+
+        A permission is valid only when the author grants it in writing, for example in a reply to this issue from the GitHub account `gmrkinichuk-gif`. Do not post passwords, API keys or other secrets here: issues are public.
+
+        Ви можете заповнити форму українською, англійською або російською. / Форму можно заполнить на русском, украинском или английском.
+  - type: dropdown
+    id: request
+    attributes:
+      label: What do you ask for?
+      options:
+        - Include VPI in a modpack
+        - Redistribute or mirror VPI on another site
+        - Modify VPI or publish a modified version
+        - Separate or commercial licence
+        - Other licensing question
+    validations:
+      required: true
+  - type: input
+    id: who
+    attributes:
+      label: Who are you?
+      description: Your name or nickname, and the project, team or company you represent, if any.
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: Where will VPI be used or published?
+      description: Link to the modpack, site, mirror or project.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: VPI version and files
+      description: For example "VPI 1.0.4, VPI-Setup-1.0.4-EU-Public.exe".
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: What exactly you want to do, whether it is free or paid for your users, how players will get updates, and how VPI will be credited.
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Confirmation
+      options:
+        - label: I have read the licence and understand that nothing is allowed until the author replies in writing.
+          required: true
+        - label: I will keep the licence, copyright and third-party notices unchanged, and will not charge for VPI itself unless the author grants a separate licence.
+          required: true

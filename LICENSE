@@ -1,0 +1,355 @@
+VPI PROPRIETARY FREEWARE LICENSE 1.0
+
+Vehicle Performance Index (VPI)
+© 2026 Vladyslav Kinichuk (metronom_). All rights reserved.
+Rights are granted only as expressly stated in this License.
+
+This is the governing English text. Ukrainian and Russian translations are
+provided in LICENSE.uk.md and LICENSE.ru.md for convenience (see Section 16).
+
+IMPORTANT: VPI is an unofficial fan-made modification. It is not affiliated
+with, endorsed, sponsored or supported by Wargaming (see Section 7).
+
+
+SUMMARY (not part of the License)
+
+- VPI is free of charge and closed source.
+- You may download it from an Official Source and use it for your own
+  personal, non-commercial purposes.
+- You may freely share links to VPI, review it, and show it in screenshots,
+  videos, streams and tutorials on any platform, including monetised ones.
+  No permission is needed, and credit is welcome but optional.
+- Re-uploading, mirroring, modifying, selling or putting VPI into a modpack
+  needs the Author's prior written permission.
+- VPI comes without warranty. Materials of Wargaming and other rightholders
+  belong to them, not to the Author.
+The full terms below prevail over this summary.
+
+
+1. DEFINITIONS
+
+1.1 "Author" means Vladyslav Kinichuk (metronom_), the copyright holder of
+    VPI, and any successor in title.
+
+1.2 "Software" means Vehicle Performance Index (VPI) in any version and form,
+    including the client modification packages (.wotmod files), release
+    archives, the Windows installer, configuration templates, server
+    software, build and calibration tools, source and object code,
+    documentation, texts, translations, graphics, the VPI name, rank names
+    and other materials made available by the Author under this License.
+
+1.3 "Mod" means the parts of the Software intended for players: the client
+    modification packages, release archives and the Windows installer, as
+    published by the Author for end users.
+
+1.4 "Author's Components" means the parts of the Software created by or for
+    the Author in which the Author holds the rights. It excludes Third-Party
+    Materials.
+
+1.5 "Third-Party Materials" means anything contained in, used by or
+    referenced by the Software in which a person other than the Author holds
+    the rights, including the materials of Wargaming described in Section 7
+    and the components listed in THIRD_PARTY_NOTICES.md.
+
+1.6 "Official Source" means a download location published or approved by the
+    Author, such as the official release repository
+    https://github.com/gmrkinichuk-gif/vpi-releases and its releases page.
+
+1.7 "Personal Non-Commercial Use" means use by an individual for their own
+    gaming, study or evaluation, without receiving money or other
+    consideration for the Software itself. Activities permitted by
+    Section 4 are not commercial use of the Software for the purposes of this
+    License.
+
+1.8 "You" means the individual or legal entity exercising rights under this
+    License.
+
+
+2. OWNERSHIP
+
+2.1 The Software is licensed, not sold. The Author retains all copyright and
+    other intellectual property rights in the Author's Components, including
+    all economic (property) rights that belong to the Author under applicable
+    law. No rights are granted except those expressly stated in this License.
+
+2.2 The Author does not claim ownership of any Third-Party Materials. This
+    License does not grant You any right in Third-Party Materials. They
+    remain the property of their respective owners and are governed by those
+    owners' own terms.
+
+2.3 The ideas, methods and formulas described in the Software's
+    documentation are not claimed beyond what copyright and other applicable
+    law protect. The text, code, presentation and other expression of the
+    Software remain protected.
+
+
+3. LICENCE TO USE THE MOD
+
+3.1 Subject to this License, the Author grants You a free of charge,
+    non-exclusive, non-transferable, non-sublicensable, worldwide licence,
+    revocable only as provided in Section 12, to:
+    (a) download the Mod from an Official Source;
+    (b) install and use the Mod on devices You own or control, for Personal
+        Non-Commercial Use; and
+    (c) make the copies that are necessary for installation, normal use and
+        backup.
+
+3.2 Access to source code, server software, build tools or unpublished
+    versions does not by itself grant any right to use, copy or disclose
+    them. Anyone the Author gives such access, for example as a
+    collaborator on the private source repository, may use those materials
+    only for the purpose and on the conditions the Author has approved in
+    writing, and must not publish or redistribute them.
+
+3.3 You must use the Software in compliance with the rules of the game it
+    modifies, including Wargaming's End User Licence Agreement, Player
+    Content Policy, Fair Play rules and, where applicable, the terms of the
+    Wargaming Public API.
+
+
+4. ALWAYS PERMITTED: LINKS, REVIEWS AND DEMONSTRATIONS
+
+4.1 Nothing in this License restricts You from, and no permission is needed
+    for:
+    (a) sharing links to Official Sources or to the Author's pages about
+        the Software;
+    (b) writing, publishing and discussing reviews, articles, guides,
+        tutorials, comparisons, criticism and news about the Software;
+    (c) creating and publishing videos, live streams, screenshots, replays,
+        tutorials and other demonstrations that show the Software in use,
+        on YouTube, Twitch, TikTok or any other platform;
+    (d) quoting reasonable parts of the Software's documentation for the
+        purposes above;
+    (e) monetising such content, for example through platform monetisation,
+        advertising, channel sponsorships or donations, in accordance with
+        Wargaming's rules, including its Player Content Policy.
+    No separate permission from the Author is needed for any of this.
+
+4.2 Crediting VPI and linking to the official release repository in such
+    content is welcome but not required.
+
+4.3 You must not present yourself as the author of the Software, and must not
+    state or imply that the Author endorses You or Your content unless the
+    Author has agreed.
+
+4.4 The permission to create and monetise content does not extend to the
+    Software itself. Selling, reselling or distributing the Software or any
+    part of it, or offering it for download other than by linking to an
+    Official Source, remains subject to Section 5.
+
+
+5. ACTIONS THAT NEED THE AUTHOR'S PRIOR WRITTEN PERMISSION
+
+Except as allowed by Sections 3, 4 and 6, You must not, without the Author's
+prior written permission:
+    (a) distribute, publish, upload, re-host or mirror the Software or any
+        part of it, including the .wotmod packages, release archives and the
+        installer, or make it available to the public in any other way;
+    (b) include the Software or any part of it in a modpack, mod collection,
+        mod installer, launcher, client build or similar bundle, whether free
+        or paid;
+    (c) modify, adapt, translate, patch, repackage or create derivative works
+        of the Software or any part of it, or distribute such works;
+    (d) sell, rent, lease, lend, sublicense or otherwise commercially exploit
+        the Software, charge any fee for access to it, or bundle it with any
+        paid product or service;
+    (e) use the Author's Components, including source code, graphics, texts,
+        the VPI name and rank names, in any other product or service;
+    (f) remove, alter or obscure any copyright, licence, attribution or
+        non-affiliation notice in the Software;
+    (g) present a modified, partial or repackaged version as the Software or
+        as an official VPI release.
+Permission is granted only if it is given by the Author in writing, for
+example in the Author's reply from the GitHub account gmrkinichuk-gif in a
+"Licensing & Permissions" issue (see Section 17.4), and only to the extent and
+on the conditions stated in it.
+
+
+6. RIGHTS GUARANTEED BY LAW
+
+6.1 Nothing in this License excludes or limits any right that You have under
+    applicable law and that cannot be excluded or limited by agreement. This
+    includes, where and to the extent applicable, the rights of a lawful user
+    of a computer program to make a back-up copy, to observe, study or test
+    the functioning of the program, and to decompile it where indispensable
+    for interoperability, for example under Articles 5 and 6 of Directive
+    2009/24/EC and the corresponding provisions of national law such as the
+    Law of Ukraine "On Copyright and Related Rights", as well as statutory
+    exceptions such as quotation, criticism and review.
+
+6.2 Information obtained under such rights may be used only for the purposes
+    for which the law permits it.
+
+
+7. WARGAMING AND OTHER THIRD-PARTY MATERIALS
+
+7.1 The Software is unofficial player-made content for World of Tanks. It is
+    not affiliated with, endorsed, sponsored, supported or approved by
+    Wargaming Group Limited or any of its affiliates ("Wargaming").
+
+7.2 This work includes trademarks and/or copyrighted works that are the
+    exclusive property of Wargaming. All rights reserved by Wargaming. This
+    work is unofficial and is not endorsed by Wargaming.
+
+7.3 "World of Tanks", "Wargaming" and related names, logos, game content and
+    data are trademarks or copyrighted works of Wargaming. Game client files
+    that the Mod modifies or contains in modified form, game resources the
+    Mod loads at run time, and data obtained from the Wargaming Public API
+    remain the property of Wargaming and are used under Wargaming's own
+    terms. The Author claims no rights in them.
+
+7.4 Nothing in this License limits any right or licence that Wargaming has
+    under its End User Licence Agreement, Player Content Policy or other
+    terms with respect to player content, including the Software.
+
+7.5 Other Third-Party Materials are identified, with their owners and terms,
+    in THIRD_PARTY_NOTICES.md. Their own licence terms apply to them and
+    prevail over this License to the extent of any conflict.
+
+7.6 Crosshairs API is an independent third-party product. The Software does
+    not contain its code. When the VPI installer finds a supported Crosshairs
+    API package on Your computer, it reads that package's hangar page there
+    and writes a local copy with two added lines that load VPI's own script
+    and style. The Crosshairs API package itself is not changed, and the
+    local copy is not distributed by the Author. This License does not apply
+    to Crosshairs API or its code, and the Author claims no rights in them.
+
+
+8. SEPARATE AND COMMERCIAL LICENSING
+
+8.1 This License is non-exclusive. The Author may at any time license the
+    Software or any of the Author's Components to anyone under different
+    terms, including separate paid or commercial licences, and may publish
+    later versions of the Software under different terms.
+
+8.2 Any separate licence can cover only the Author's Components and the
+    rights the Author holds. It does not grant rights in Third-Party
+    Materials, which must be licensed from their owners where required.
+
+8.3 The Author is not obliged to grant any permission or separate licence.
+
+
+9. CONTRIBUTIONS AND FEEDBACK
+
+9.1 If You voluntarily send the Author code, translations, graphics, ideas,
+    bug reports or other material for the Software ("Contributions"), You
+    confirm that You have the right to do so and grant the Author a free of
+    charge, worldwide, non-exclusive, perpetual and irrevocable licence to
+    use, reproduce, modify, distribute, sublicense and otherwise exploit the
+    Contributions as part of the Software or separately, including under the
+    separate licences described in Section 8.
+
+9.2 Moral rights that cannot be waived or transferred under applicable law
+    are not affected. The Author may credit Contributors but is not obliged
+    to use any Contribution.
+
+
+10. ONLINE FEATURES AND UPDATES
+
+10.1 Some features rely on services that the Author does not control, such as
+     the game client and the Wargaming Public API, and on optional services
+     operated by the Author. Their availability is not guaranteed, and the
+     Author may change, suspend or discontinue them.
+
+10.2 Updates of the Software are licensed under the version of this License
+     that accompanies them.
+
+
+11. NEW VERSIONS OF THIS LICENSE
+
+The Author may publish new versions of this License. A version of the
+Software remains available under the version of this License distributed with
+it, unless You accept a later version, for example by installing a later
+release of the Software.
+
+
+12. TERMINATION
+
+12.1 Your rights under this License terminate automatically if You breach
+     it. If the breach can be remedied and You remedy it within 30 days
+     after receiving notice from the Author, Your rights are reinstated
+     unless the Author has expressly terminated them.
+
+12.2 On termination You must stop using the Software and delete all copies
+     in Your possession or control, except copies that applicable law allows
+     You to keep.
+
+12.3 Sections 2, 5 to 9 and 12 to 17 survive termination.
+
+
+13. DISCLAIMER OF WARRANTIES
+
+13.1 TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE SOFTWARE IS
+     PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY OF ANY KIND,
+     EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF MERCHANTABILITY,
+     FITNESS FOR A PARTICULAR PURPOSE, TITLE, NON-INFRINGEMENT, ACCURACY AND
+     UNINTERRUPTED OR ERROR-FREE OPERATION.
+
+13.2 Ratings and statistics shown by the Software are estimates based on
+     public data and a model chosen by the Author. They may be incomplete,
+     delayed or inaccurate and are not an official assessment by Wargaming.
+
+13.3 The Author does not warrant that the Software is or will remain
+     compatible with any game version, other modifications or the rules of
+     any game, platform or service. You are responsible for checking that
+     Your use complies with those rules.
+
+
+14. LIMITATION OF LIABILITY
+
+14.1 TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE AUTHOR IS NOT
+     LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR PUNITIVE
+     DAMAGES, OR FOR ANY LOSS OF DATA, PROFITS, GAME PROGRESS, VIRTUAL ITEMS,
+     OR ACCOUNT ACCESS, INCLUDING ANY RESTRICTION OF A GAME ACCOUNT, ARISING
+     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THIS LICENSE, EVEN IF
+     ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+14.2 TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE AUTHOR'S TOTAL
+     LIABILITY ARISING OUT OF OR IN CONNECTION WITH THE SOFTWARE PROVIDED
+     FREE OF CHARGE UNDER THIS LICENSE IS LIMITED TO ZERO (0) EUROS.
+
+14.3 Nothing in this License excludes or limits liability that cannot be
+     excluded or limited under applicable law, such as liability for intent
+     or gross negligence, for death or personal injury caused by negligence,
+     or under mandatory consumer protection law.
+
+
+15. APPLICABLE LAW
+
+15.1 This License does not choose a governing law and does not establish an
+     exclusive jurisdiction or venue. The law and the courts that apply to a
+     question about this License are those determined by the applicable
+     rules of private international law and other mandatory law.
+
+15.2 Nothing in this License deprives You of the protection of mandatory
+     provisions of the law that applies to You, or of any right guaranteed to
+     You by applicable law (see also Section 6).
+
+
+16. TRANSLATIONS
+
+This License is written in English. The Ukrainian (LICENSE.uk.md) and Russian
+(LICENSE.ru.md) translations are provided for convenience. If they differ from
+the English text, the English text prevails, unless mandatory applicable law
+requires otherwise.
+
+
+17. GENERAL
+
+17.1 If any provision of this License is held invalid or unenforceable, it
+     applies to the maximum extent permitted, and the remaining provisions
+     stay in effect.
+
+17.2 A failure or delay by the Author in enforcing any provision is not a
+     waiver of it.
+
+17.3 This License, together with any written permission or separate licence
+     from the Author, is the entire agreement between You and the Author
+     regarding the Software. A separate written licence or permission
+     prevails over this License to the extent of any conflict.
+
+17.4 Requests about licensing, modifications, modpacks, redistribution and
+     other permissions, and notices to the Author, are accepted through
+     GitHub Issues in the official release repository, using the
+     "Licensing & Permissions" issue form:
+     https://github.com/gmrkinichuk-gif/vpi-releases/issues/new?template=licensing-permissions.yml
