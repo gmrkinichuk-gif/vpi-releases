@@ -51,9 +51,9 @@ The build puts the five documents (`LICENSE`, `LICENSE.uk.md`, `LICENSE.ru.md`, 
 | `vpi.index_<version>.wotmod` | `res/gui/vpi/legal/vpi.index/` inside the package |
 | `vpi-native-ui_<version>.wotmod` | `res/gui/vpi/legal/vpi.native-ui/` inside the package |
 | `VPI-Setup-<version>-EU*.exe` | embedded, and installed to `mods/configs/vpi-index/legal/` in the game folder |
-| `VPI-Server.zip` | `legal/` |
+| `VPI-Server.zip` (never published, copied to the VPS only) | `legal/` |
 
-To copy the documents into the `vpi-releases` repository, run `python tools/legal.py --export <path-to-vpi-releases>`.
+To copy the documents, together with `PRIVACY.md`, into the `vpi-releases` repository, run `python tools/legal.py --export <path-to-vpi-releases>`. `python tools/release_gate.py ... --public-repo <path-to-vpi-releases>` checks that the copies there are identical.
 
 ## Official sources
 
