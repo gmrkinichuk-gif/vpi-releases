@@ -1,6 +1,6 @@
 # VPI Privacy Notice
 
-Applies to the public VPI release (`VPI-Setup-<version>-EU-Public.exe`, `VPI-<version>-EU-Public.zip` and the two `.wotmod` files in them) published at <https://github.com/gmrkinichuk-gif/vpi-releases/releases>. The English text governs; a Ukrainian translation follows. Last reviewed: 27 November 2026.
+Applies to the public VPI release (`VPI-Setup-<version>-EU-Public.exe`, `VPI-<version>-EU-Public.zip` and the two `.wotmod` files in them) published at <https://github.com/gmrkinichuk-gif/vpi-releases/releases>. The English text governs; a Ukrainian translation follows. Last reviewed: 28 November 2026.
 
 ## 1. Who is responsible
 
@@ -28,13 +28,13 @@ With consent, VPI sends HTTPS requests to the official VPI service `https://vpi-
 - `POST /v1/ratings` with up to 30 pairs of *public account ID and nickname* of players the game shows you: your own account in the hangar, players in your battle and on its loading screen, in the post-battle results and contacts visible in your friends list. Players hidden by the Anonymizer and bots are skipped.
 - `GET /v1/catalog` for the vehicle table (tier, class, role, hit points, view range).
 
-The service looks up these public statistics through the Wargaming Public API with its own application ID and returns ratings. It keeps at most 100 player records in memory at a time, each for 15 to 60 seconds, and keeps no copy on disk. It does not log requests, URLs, bodies, IDs, nicknames or IP addresses; for rate limiting it uses a keyed hash of the source address that is never stored and expires within three minutes. The game keeps up to 100 received ratings in memory for 10 minutes. Switching consent off stops the requests and clears that memory at once.
+The service looks up these public statistics through the Wargaming Public API with its own application ID and returns ratings. It keeps at most 100 player records in memory at a time, each for 15 to 60 seconds, and keeps no copy on disk. It does not log requests, URLs, bodies, IDs, nicknames or IP addresses; for rate limiting it uses a keyed hash of the source address, held only in memory, never written to disk and forgotten about three minutes after the last request. The game keeps up to 100 received ratings in memory for 10 minutes. Switching consent off stops the requests and clears that memory at once.
 
-Until Wargaming confirms its permission in writing, the service does not query Wargaming, and VPI shows no ratings from it.
+Wargaming has not yet confirmed this use in writing. Until it does, the service does not query Wargaming and returns no ratings, so it holds no player records.
 
 ## 4. Update check
 
-At most once every 6 hours, and only in the hangar, VPI asks the public GitHub API (`https://api.github.com/repos/gmrkinichuk-gif/vpi-releases/releases/latest`) which VPI release is the latest. The request carries no token and no personal data apart from what any web request reveals to GitHub (your IP address and the header `User-Agent: VPI-mod/<version>`); see [GitHub's Privacy Statement](https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement). VPI downloads and installs nothing. Turn it off with "Notify about updates" in VPI settings. Clicking the update line opens the releases page in your browser.
+Only in the hangar, at most once every 6 hours after a successful check (a failed check is retried after an hour), VPI asks the public GitHub API (`https://api.github.com/repos/gmrkinichuk-gif/vpi-releases/releases/latest`) which VPI release is the latest. The request carries no token and no personal data apart from what any web request reveals to GitHub (your IP address and the header `User-Agent: VPI-mod/<version>`); see [GitHub's Privacy Statement](https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement). VPI downloads and installs nothing. Turn it off with "Notify about updates" in VPI settings. Clicking the update line opens the releases page in your browser.
 
 ## 5. What VPI never does
 
@@ -48,7 +48,7 @@ Withdraw consent at any time on **Дані EU / EU data**; delete `mods/configs/
 
 # Повідомлення про приватність VPI
 
-Стосується публічного релізу VPI (`VPI-Setup-<версія>-EU-Public.exe`, `VPI-<версія>-EU-Public.zip` і двох `.wotmod` у них), опублікованого на <https://github.com/gmrkinichuk-gif/vpi-releases/releases>. Чинним є англійський текст, нижче переклад. Перевірено 27 листопада 2026 року.
+Стосується публічного релізу VPI (`VPI-Setup-<версія>-EU-Public.exe`, `VPI-<версія>-EU-Public.zip` і двох `.wotmod` у них), опублікованого на <https://github.com/gmrkinichuk-gif/vpi-releases/releases>. Чинним є англійський текст, нижче переклад. Перевірено 28 листопада 2026 року.
 
 ## 1. Хто відповідає
 
@@ -76,13 +76,13 @@ VPI пише лише в `mods/configs/vpi-index/` у теці гри. Нічо�
 - `POST /v1/ratings` з не більш ніж 30 парами *публічний ID акаунта та нік* гравців, яких вам показує гра: ваш акаунт в ангарі, гравці вашого бою та його екрана завантаження, післябойових результатів і видимі контакти у списку друзів. Гравців, прихованих Anonymizer, і ботів пропущено.
 - `GET /v1/catalog` для таблиці техніки (рівень, клас, роль, міцність, огляд).
 
-Сервіс отримує цю публічну статистику через Wargaming Public API зі своїм ідентифікатором застосунку й повертає рейтинги. Він тримає в пам’яті не більше 100 записів гравців одночасно, кожен 15–60 секунд, і нічого не зберігає на диску. Він не журналює запити, URL, тіла, ID, ніки чи IP-адреси; для обмеження частоти використовує ключований хеш адреси джерела, який не зберігається й зникає щонайбільше за три хвилини. Гра тримає до 100 отриманих рейтингів у пам’яті 10 хвилин. Вимкнення згоди одразу зупиняє запити й очищає цю пам’ять.
+Сервіс отримує цю публічну статистику через Wargaming Public API зі своїм ідентифікатором застосунку й повертає рейтинги. Він тримає в пам’яті не більше 100 записів гравців одночасно, кожен 15–60 секунд, і нічого не зберігає на диску. Він не журналює запити, URL, тіла, ID, ніки чи IP-адреси; для обмеження частоти використовує ключований хеш адреси джерела, який тримається лише в пам’яті, ніколи не пишеться на диск і забувається приблизно за три хвилини після останнього запиту. Гра тримає до 100 отриманих рейтингів у пам’яті 10 хвилин. Вимкнення згоди одразу зупиняє запити й очищає цю пам’ять.
 
-До письмового підтвердження дозволу від Wargaming сервіс не звертається до Wargaming, і VPI не показує рейтингів від нього.
+Wargaming ще не підтвердив таке використання письмово. До того сервіс не звертається до Wargaming і не повертає рейтингів, тож не тримає записів гравців.
 
 ## 4. Перевірка оновлень
 
-Не частіше ніж раз на 6 годин і лише в ангарі VPI запитує публічний API GitHub (`https://api.github.com/repos/gmrkinichuk-gif/vpi-releases/releases/latest`), який реліз VPI останній. Запит не містить токена й персональних даних, крім того, що бачить GitHub у будь-якому вебзапиті (ваша IP-адреса й заголовок `User-Agent: VPI-mod/<версія>`); див. [Privacy Statement GitHub](https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement). VPI нічого не завантажує й не встановлює. Вимкнути: «Повідомляти про оновлення» в налаштуваннях VPI. Клік по рядку оновлення відкриває сторінку релізів у браузері.
+Лише в ангарі, не частіше ніж раз на 6 годин після вдалої перевірки (невдалу VPI повторює через годину), VPI запитує публічний API GitHub (`https://api.github.com/repos/gmrkinichuk-gif/vpi-releases/releases/latest`), який реліз VPI останній. Запит не містить токена й персональних даних, крім того, що бачить GitHub у будь-якому вебзапиті (ваша IP-адреса й заголовок `User-Agent: VPI-mod/<версія>`); див. [Privacy Statement GitHub](https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement). VPI нічого не завантажує й не встановлює. Вимкнути: «Повідомляти про оновлення» в налаштуваннях VPI. Клік по рядку оновлення відкриває сторінку релізів у браузері.
 
 ## 5. Чого VPI ніколи не робить
 

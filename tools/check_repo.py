@@ -24,7 +24,7 @@ ROOT = Path(__file__).resolve().parents[1]
 # Every file this repository may hold. Anything else (source code, server files, builds, reports, data) fails.
 ALLOWED = {
     'README.md', 'PRIVACY.md', 'LICENSE', 'LICENSE.uk.md', 'LICENSE.ru.md', 'COPYRIGHT.md',
-    'THIRD_PARTY_NOTICES.md', 'LEGAL-SHA256.txt', '.gitignore',
+    'THIRD_PARTY_NOTICES.md', 'LEGAL-SHA256.txt', '.gitignore', '.gitattributes',
     '.github/ISSUE_TEMPLATE/config.yml', '.github/ISSUE_TEMPLATE/licensing-permissions.yml',
     '.github/workflows/content.yml', 'tools/check_repo.py', 'tests/test_check_repo.py', 'releases/README.md',
 }
