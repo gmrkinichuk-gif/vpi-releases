@@ -34,7 +34,7 @@ Wargaming has not yet confirmed this use in writing. Until it does, the service 
 
 ## 4. Update check
 
-At most once every 6 hours, and only in the hangar, VPI asks the public GitHub API (`https://api.github.com/repos/gmrkinichuk-gif/vpi-releases/releases/latest`) which VPI release is the latest. The request carries no token and no personal data apart from what any web request reveals to GitHub (your IP address and the header `User-Agent: VPI-mod/<version>`); see [GitHub's Privacy Statement](https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement). VPI downloads and installs nothing. Turn it off with "Notify about updates" in VPI settings. Clicking the update line opens the releases page in your browser.
+Only in the hangar, at most once every 6 hours after a successful check (a failed check is retried after an hour), VPI asks the public GitHub API (`https://api.github.com/repos/gmrkinichuk-gif/vpi-releases/releases/latest`) which VPI release is the latest. The request carries no token and no personal data apart from what any web request reveals to GitHub (your IP address and the header `User-Agent: VPI-mod/<version>`); see [GitHub's Privacy Statement](https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement). VPI downloads and installs nothing. Turn it off with "Notify about updates" in VPI settings. Clicking the update line opens the releases page in your browser.
 
 ## 5. What VPI never does
 
@@ -82,7 +82,7 @@ Wargaming ще не підтвердив таке використання пи�
 
 ## 4. Перевірка оновлень
 
-Не частіше ніж раз на 6 годин і лише в ангарі VPI запитує публічний API GitHub (`https://api.github.com/repos/gmrkinichuk-gif/vpi-releases/releases/latest`), який реліз VPI останній. Запит не містить токена й персональних даних, крім того, що бачить GitHub у будь-якому вебзапиті (ваша IP-адреса й заголовок `User-Agent: VPI-mod/<версія>`); див. [Privacy Statement GitHub](https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement). VPI нічого не завантажує й не встановлює. Вимкнути: «Повідомляти про оновлення» в налаштуваннях VPI. Клік по рядку оновлення відкриває сторінку релізів у браузері.
+Лише в ангарі, не частіше ніж раз на 6 годин після вдалої перевірки (невдалу VPI повторює через годину), VPI запитує публічний API GitHub (`https://api.github.com/repos/gmrkinichuk-gif/vpi-releases/releases/latest`), який реліз VPI останній. Запит не містить токена й персональних даних, крім того, що бачить GitHub у будь-якому вебзапиті (ваша IP-адреса й заголовок `User-Agent: VPI-mod/<версія>`); див. [Privacy Statement GitHub](https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement). VPI нічого не завантажує й не встановлює. Вимкнути: «Повідомляти про оновлення» в налаштуваннях VPI. Клік по рядку оновлення відкриває сторінку релізів у браузері.
 
 ## 5. Чого VPI ніколи не робить
 
